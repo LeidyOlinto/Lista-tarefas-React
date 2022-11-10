@@ -35,7 +35,7 @@ useEffect(() => {
     setTasks(data);
   };
   fetchTasks();
-},[])
+},[]);
 
 
   const handleTaskClick = (taskId) => {
