@@ -85,7 +85,7 @@ useEffect(() => {
               </>
             )}
           />
-          <Route path="/:taskTile" exact component={TaskDetails} />
+            <Route path="/:taskTile" exact component={TaskDetails} />
 
         </Routes>
 
